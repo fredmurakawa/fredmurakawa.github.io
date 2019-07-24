@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+}
+
+.masthead {
+    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("img/background_code_3.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.masthead h1 {
+    font-size: 5.5vw;
+    color: rgba(209, 17, 73, 1);
+}
+
+.masthead h2 {
+    font-size: 3vw;
+}
+
+.masthead p {
+    font-size: 2vw;
+}
+
+.sub-master {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.section {
+    color: rgba(133, 133, 133, 1);
+    /* color: rgba(255, 102, 102, 1); */
+}
+
+.main-mockup {
+    padding: 0;
+}
+
+hr.project-separator {
+    width: 80%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    /* border: 1.2px solid gray; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#my-image {
+    height: 40vw;
+    max-width: 280px;
+    max-height: 280px;
+}
+
+#swigo h1 {
+    /* Swigo Orange Color */
+    color: rgba(241, 113, 5, 1);
+}
+
+#swigo h3 {
+    /* Swigo Orange Color */
+    color: rgba(241, 113, 5, 1);
+}
+
+#swigo .main-mockup img {
+    background-color: rgba(241, 113, 5, 0.8);
+}
+
+#allo h1, h3 {
+    /* Allo Purple Color */
+    color: rgba(83, 182, 177, 1);
+}
+
+#allo .main-mockup img {
+    background-color: rgba(83, 182, 177, 0.8);
+}
+
+#primer h1 {
+    /* Swigo Orange Color */
+    color: rgba(253, 208, 118, 1);
+}
+
+#primer h3 {
+    /* Swigo Orange Color */
+    color: rgba(253, 208, 118, 1);
+}
+
+#primer .main-mockup img {
+    background-color: rgba(253, 208, 118, 0.8);
+}
+
+[class*="col-"]:not(:last-child){
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
