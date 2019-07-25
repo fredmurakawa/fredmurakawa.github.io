@@ -15,6 +15,7 @@ p {
 .hero {
     background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.78)),url("img/background_code_5.jpg");
     background-size: cover;
+    background-position: right;
     color: white;
     padding-top: 6%;
     padding-bottom: 6%;
@@ -25,18 +26,19 @@ p {
     font-weight: 650;
 }
 
-#work {
-    color: white;
-}
+#work { color: white; }
 
 .sub-master {
     padding-left: 2%;
     padding-right: 2%;
+    height: 100%;
 }
 
 .section {
-    color: rgba(133, 133, 133, 1);
-    /* color: rgba(255, 102, 102, 1); */
+    color: rgba(72, 72, 72, 1);
+    background-color: #eee;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .project-info {
@@ -49,14 +51,6 @@ p {
     padding: 0;
 }
 
-
-@media (max-width: 768px) {
-  .project-info {
-      margin-left: 20px;
-      margin-right: 20px;
-  }
-}
-
 hr.project-separator {
     width: 80%;
     margin-left: 10% !important;
@@ -66,47 +60,23 @@ hr.project-separator {
     margin-bottom: 2rem;
 }
 
-#swigo .app-name-title {
-    /* Swigo Orange Color */
-    color: rgba(241, 113, 5, 1);
-}
+#swigo .app-name-title { color: rgba(241, 113, 5, 1); }
 
-#swigo .app-subtitle {
-    /* Swigo Orange Color */
-    color: rgba(241, 113, 5, 0.65);
-}
+#swigo .app-subtitle { color: rgba(241, 113, 5, 0.65); }
 
-#swigo .main-mockup img {
-    background-color: rgba(241, 113, 5, 0.8);
-}
+#swigo .main-mockup img { background-color: rgba(241, 113, 5, 0.8); }
 
-#allo .app-name-title {
-    /* Allo Purple Color */
-    color: rgba(83, 182, 177, 1);
-}
+#allo .app-name-title { color: rgba(83, 182, 177, 1); }
 
-#allo .app-subtitle {
-    /* Allo Purple Color */
-    color: rgba(83, 182, 177, 0.65);
-}
+#allo .app-subtitle { color: rgba(83, 182, 177, 0.65); }
 
-#allo .main-mockup img {
-    background-color: rgba(83, 182, 177, 0.8);
-}
+#allo .main-mockup img { background-color: rgba(83, 182, 177, 0.8); }
 
-#primer .app-name-title {
-    /* Swigo Orange Color */
-    color: rgba(253, 208, 118, 1);
-}
+#primer .app-name-title { color: rgba(253, 208, 118, 1); }
 
-#primer .app-subtitle {
-    /* Swigo Orange Color */
-    color: rgba(253, 208, 118, 0.65);
-}
+#primer .app-subtitle { color: rgba(253, 208, 118, 0.65); }
 
-#primer .main-mockup img {
-    background-color: rgba(253, 208, 118, 0.8);
-}
+#primer .main-mockup img { background-color: rgba(253, 208, 118, 0.8); }
 
 [class*="col-"]:not(:last-child){
   margin-bottom: 15px;
@@ -114,90 +84,114 @@ hr.project-separator {
 }
 
 @media (max-width: 350px) {
-    #name {
-        font-size: 29px !important;
-    }
+    #name { font-size: 39px !important; }
 
-    #work {
-        font-size: 19px !important;
-    }
+    #work { font-size: 29px !important; }
 
     #my-image {
-        height: 150px;
-        width: 150px;
+        max-height: 40vh;
+        max-width: 80vw;
+    }
+
+    .image-div {
+        align-self: flex-end !important;
+    }
+
+    .name-div {
+        align-self: flex-start !important;
     }
 }
 
 /* Small devices */
 @media (min-width: 350px) {
-    .app-name-title {
-        font-size: 50px !important;
-    }
+    .app-name-title { font-size: 50px !important; }
 
-    .app-subtitle {
-        font-size: 25px !important;
-    }
+    .app-subtitle { font-size: 25px !important; }
 
-    .app-text {
-        font-size: 16px !important;
-    }
+    .app-text { font-size: 16px !important; }
 
-    #name {
-        font-size: 32px !important;
-    }
+    .section h2 { font-size: 40px !important; }
 
-    #work {
-        font-size: 22px !important;
-    }
+    #name { font-size: 42px !important; }
+
+    #work { font-size: 32px !important; }
 
     #my-image {
-        height: 200px;
-        width: 200px;
+        max-height: 40vh;
+        max-width: 80vw;
+    }
+
+    .image-div {
+        align-self: flex-end !important;
+    }
+
+    .name-div {
+        align-self: flex-start !important;
     }
 }
 
 /* Medium devices */
 @media (min-width: 768px) {
-    .app-name-title {
-        font-size: 60px !important;
+    .app-name-title { font-size: 60px !important; }
+
+    .app-subtitle { font-size: 30px !important; }
+
+    .app-text { font-size: 18px !important; }
+
+    .section h2 { font-size: 50px !important; }
+
+    #name { font-size: 52px !important; }
+
+    #work { font-size: 42px !important; }
+
+    #my-image {
+        max-height: 50vh;
+        max-width: 30vw;
     }
 
-    .app-subtitle {
-        font-size: 30px !important;
+    .image-div {
+        align-self: center !important;
     }
 
-    .app-text {
-        font-size: 18px !important;
-    }
-
-    #name {
-        font-size: 42px !important;
-    }
-
-    #work {
-        font-size: 32px !important;
+    .name-div {
+        align-self: center !important;
     }
 }
 
 /* Large devices */
 @media (min-width: 992px) {
-    .app-name-title {
-        font-size: 70px !important;
+    .app-name-title { font-size: 70px !important; }
+
+    .app-subtitle { font-size: 35px !important; }
+
+    .app-text { font-size: 18px !important; }
+
+    .section h2 { font-size: 60px !important; }
+
+    #name { font-size: 60px !important; }
+
+    #work { font-size: 50px !important; }
+
+    #my-image {
+        max-height: 50vh;
+        max-width: 30vw;
     }
 
-    .app-subtitle {
-        font-size: 35px !important;
-    }
+}
 
-    .app-text {
-        font-size: 18px !important;
-    }
-
-    #name {
-        font-size: 50px !important;
-    }
-
-    #work {
-        font-size: 40px !important;
+@media (max-width: 768px) {
+    .project-info {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
+
+@media screen and (orientation:portrait) {
+    .hero {
+        height: 80vh;
+    }
+}
+@media screen and (orientation:landscape) {
+    .hero {
+        height: 100vh;
+    }
