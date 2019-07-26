@@ -74,7 +74,10 @@ hr.project-separator {
     margin-bottom: 2rem;
 }
 
-#swigo .app-name-title { color: rgba(241, 113, 5, 1); }
+#swigo .app-name-title {
+    color: rgba(241, 113, 5, 1);
+    margin-bottom: 0;
+}
 
 #swigo .app-subtitle { color: rgba(241, 113, 5, 0.65); }
 
