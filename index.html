@@ -7,7 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/14f06cd00a.js"></script>
 
     <title>Fred Murakawa |  iOS Engineer</title>
 </head>
@@ -18,11 +22,25 @@
             <div class="col-auto text-center image-div">
                 <img src="img/fred.jpg" class="rounded-circle img-fluid" id="my-image" alt="Fred Murakawa">
             </div>
-            <div class="col-auto text-center name-div">
+            <div class="col-auto name-div my-auto">
                 <h1 id="name">FRED MURAKAWA</h1>
                 <h2 id="work">iOS Engineer</h2>
-                <!-- <p>Description about myself</p> -->
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/frederico-murakawa/" target="_blank" title="LinkedIn" class="social-media-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/fredmurakawa" target="_blank" title="GitHub" class="social-media-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!-- <a href="#Resume" target="_blank" title="Resume">
+                        <i class="fas fa-address-card social-media-icon"></i>
+                    </a> -->
+                    <a href="mailto:fredbmurakawa@gmail.com" target="_top" title="Email" class="social-media-icon">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
             </div>
+
         </div>
 
     </div>
@@ -32,11 +50,12 @@
     <div class="container-fluid section">
         <h2 class="text-center">Portfolio</h2>
     </div>
+    <!-- End Portfolio Section -->
 
-    <!-- Project -->
+    <!-- Project Swigo -->
     <div class="container-fluid project" id="swigo">
         <div class="row">
-            <div class="col-sm align-self-center project-info">
+            <div class="col-sm align-self-center project-info order-sm-1 order-2">
                 <div class="row">
                     <div class="col-auto">
                         <img src="img/swigo_app_icon.png" alt="Swigo App Icon" class="app-icon">
@@ -44,34 +63,32 @@
                     <div class="col align-self-center">
                         <h2 class="app-name-title">SWIGO</h2>
                     </div>
-
                 </div>
                 <p class="app-text">
                     An iOS app that makes it easy for travelers to connect with others who will be at the same destination on a certain date.
                     Just add your next trip and and you'll find people to connect with.
                     The app has search filters and an in-app chat for easy communication.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Role</h4>
                 <p class="app-text">
                     I've been working on Swigo since the beginning on a team of 5 engineers.
                     Developed the logic of many features and built numerous UI components.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Technologies</h4>
                 <p class="app-text">
                     Swift, CoreData, Core Location, Push Notifications, SendBird
                 </p>
-
+                <br>
+                <a href="https://apps.apple.com/us/app/swigo-see-who-is-going/id1455923835" target="_blank" title="Swigo - Download on the App Store">
+                    <img src="img/app_store.png" alt="Swigo - Download on the App Store" class="app-store-icon">
+                </a>
+                <br>
+                <br>
             </div>
-
-            <div class="col-sm main-mockup align-self-center">
+            <div class="col-sm main-mockup align-self-center order-1">
                 <img src="img/swigo_screenshot_6.png" class="img-fluid" alt="Swigo Mockup">
             </div>
         </div>
-        <br>
         <br>
         <div class="row">
             <div class="col-sm-6 col-lg-4">
@@ -91,48 +108,46 @@
             </div>
         </div>
     </div>
-
     <!-- End Project -->
 
-    <!-- Project -->
     <hr class="project-separator">
+
+    <!-- Project Allo -->
     <div class="container-fluid project" id="allo">
         <div class="row">
-            <div class="col-sm main-mockup align-self-center order-sm-1 order-2">
+            <div class="col-sm main-mockup align-self-center">
                 <img src="img/allo_screenshot_2.png" class="img-fluid" alt="Allo Mockup">
             </div>
-            <div class="col-sm align-self-center project-info order-1">
+            <div class="col-sm align-self-center project-info">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="img/allo_app_icon.png" alt="Allo App Icon" class="app-icon">
+                        <img src="img/allo_app_icon.jpg" alt="Allo App Icon" class="app-icon">
                     </div>
                     <div class="col align-self-center">
                         <h2 class="app-name-title">ALLO</h2>
                     </div>
-
                 </div>
                 <p class="app-text">
                     Allo is a social networking app that aims to strengthen local networks of friends,
                     families, and trusted neighbors by giving them a better way to respond to each other’s needs.
                     Allo makes it easier to coordinate and be part of a community of people around your neighborhood.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Role</h4>
                 <p class="app-text">
                     I worked on the app from early stage to release on the App Store. I was responsible for various features and UI components.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Technologies</h4>
                 <p class="app-text">
                     Swift, CoreData, Push Notifications, MapKit, SendBird
                 </p>
-
+                <br>
+                <a href="https://apps.apple.com/us/app/allo-community/id1352734084" target="_blank" title="Allo - Download on the App Store">
+                    <img src="img/app_store.png" alt="Allo - Download on the App Store" class="app-store-icon">
+                </a>
+                <br>
+                <br>
             </div>
-
         </div>
-        <br>
         <br>
         <div class="row">
             <div class="col-sm-6 col-lg-4">
@@ -152,14 +167,14 @@
             </div>
         </div>
     </div>
-
     <!-- End Project -->
 
-    <!-- Project -->
     <hr class="project-separator">
+
+    <!-- Project Primer -->
     <div class="container-fluid project" id="primer">
         <div class="row">
-            <div class="col-sm align-self-center project-info">
+            <div class="col-sm align-self-center project-info order-sm-1 order-2">
                 <div class="row">
                     <div class="col-auto">
                         <img src="img/primer_app_icon.png" alt="Primer App Icon" class="app-icon">
@@ -167,56 +182,44 @@
                     <div class="col align-self-center">
                         <h2 class="app-name-title">PRIMER</h2>
                     </div>
-
                 </div>
                 <p class="app-text">
                     An iOS app that helps you choose and buy a paint by applying the color to a wall with the help of the camera.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Role</h4>
                 <p class="app-text">
                     Implemented the new UI and part of the logic in a team of 3 engineers.
                 </p>
-                <br>
-
                 <h4 class="app-subtitle">Technologies</h4>
                 <p class="app-text">
                     Swift, ARKit
                 </p>
-
             </div>
-
-            <div class="col-sm main-mockup align-self-center">
-                <img src="img/primer_mockup_iPhoneX_1.png" class="img-fluid" alt="Primer Mockup">
+            <div class="col-sm main-mockup align-self-center order-1">
+                <img src="img/primer_screenshot_7.png" class="img-fluid" alt="Primer Mockup">
             </div>
         </div>
-        <br>
         <br>
         <div class="row">
             <div class="col-sm-6 col-lg-4">
-                <img src="img/primer_mockup_iPhoneX_2.png" class="img-fluid" alt="Primer Mockup">
+                <img src="img/primer_screenshot_3.png" class="img-fluid" alt="Primer Mockup">
             </div>
             <div class="col-sm-6 col-lg-4">
-                <img src="img/primer_mockup_iPhoneX_3.png" class="img-fluid" alt="Primer Mockup">
+                <img src="img/primer_screenshot_5.png" class="img-fluid" alt="Primer Mockup">
             </div>
             <div class="col-sm-6 col-lg-4">
-                <img src="img/primer_mockup_iPhoneX_4.png" class="img-fluid" alt="Primer Mockup">
+                <img src="img/primer_screenshot_2.png" class="img-fluid" alt="Primer Mockup">
             </div>
             <div class="col-sm-6 col-lg-4 offset-lg-2">
-                <img src="img/primer_mockup_iPhoneX_5.png" class="img-fluid" alt="Primer Mockup">
+                <img src="img/primer_screenshot_0.png" class="img-fluid" alt="Primer Mockup">
             </div>
             <div class="col-sm-6 col-lg-4">
-                <img src="img/primer_mockup_iPhoneX_6.png" class="img-fluid" alt="Primer Mockup">
+                <img src="img/primer_screenshot_1.png" class="img-fluid" alt="Primer Mockup">
             </div>
         </div>
     </div>
-
-    <br>
-    <br>
     <!-- End Project -->
 
-    <!-- End Portfolio Section -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

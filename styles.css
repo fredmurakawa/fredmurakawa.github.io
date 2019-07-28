@@ -12,35 +12,67 @@ p {
     color: #484848 !important;
 }
 
-.app-icon {
-	margin: 20px auto;
-	width: 13vh;
-	height: 13vh;
-	border-radius: 20%;
-    border: 1px solid #ddd;
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: flex-end; */
-	/* background-color: #ececec; */
-	/* position: relative; */
+a:hover {
+    color: white;
+}
+
+hr.project-separator {
+    width: 80%;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    /* border: 1.2px solid gray; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero {
-    background: linear-gradient(0deg,rgba(0,0,0,0.75),rgba(0,0,0,0.78)),url("img/background_code_5.jpg");
+    /* background: url("img/background_code_5.jpg"); */
+    background-color: #fafafa;
     background-size: cover;
-    background-position: right;
+    background-position: left;
     color: white;
     padding-top: 6%;
     padding-bottom: 6%;
+    height: 100vh;
 }
+
+.app-icon {
+	margin: 20px auto;
+	border-radius: 20%;
+    border: 1px solid #ddd;
+}
+
+.app-store-icon {
+    width: 13vw;
+    min-width: 140px;
+}
+
+.social {
+    margin-top: 30px;
+
+}
+
+.social a {
+    color: #fafafa;
+}
+
+.social-media-icon {
+    margin-right: 30px;
+}
+
+.fa-linkedin-in { color: #0073b1; }
+
+.fa-github { color: black; }
+
+.fa-envelope { color: #3a3a3a; }
 
 #name {
-    color: #ff2c2c;
+    color: #4a4a4a;
     font-weight: 650;
-    text-shadow: 4px 3px 0 #111;
+    margin-bottom: 0;
 }
 
-#work { color: white; }
+#work { color: #9a9a9a; }
 
 .sub-master {
     padding-left: 2%;
@@ -50,7 +82,7 @@ p {
 
 .section {
     color: rgba(72, 72, 72, 1);
-    background-color: #eee;
+    background-color: #f6f6f6;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -65,14 +97,7 @@ p {
     padding: 0;
 }
 
-hr.project-separator {
-    width: 80%;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
-    /* border: 1.2px solid gray; */
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+
 
 #swigo .app-name-title {
     color: rgba(241, 113, 5, 1);
@@ -106,7 +131,7 @@ hr.project-separator {
     #work { font-size: 29px !important; }
 
     #my-image {
-        max-height: 40vh;
+        max-height: 28vh;
         max-width: 80vw;
     }
 
@@ -117,11 +142,20 @@ hr.project-separator {
     .name-div {
         align-self: flex-start !important;
     }
+
+    .social {
+        font-size: 30px;
+    }
+
+    .app-icon {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 /* Small devices */
 @media (min-width: 350px) {
-    .app-name-title { font-size: 50px !important; }
+    .app-name-title { font-size: 46px !important; }
 
     .app-subtitle { font-size: 25px !important; }
 
@@ -134,7 +168,7 @@ hr.project-separator {
     #work { font-size: 32px !important; }
 
     #my-image {
-        max-height: 40vh;
+        max-height: 28vh;
         max-width: 80vw;
     }
 
@@ -145,11 +179,20 @@ hr.project-separator {
     .name-div {
         align-self: flex-start !important;
     }
+
+    .social {
+        font-size: 30px;
+    }
+
+    .app-icon {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 /* Medium devices */
 @media (min-width: 768px) {
-    .app-name-title { font-size: 60px !important; }
+    .app-name-title { font-size: 53px !important; }
 
     .app-subtitle { font-size: 30px !important; }
 
@@ -157,13 +200,13 @@ hr.project-separator {
 
     .section h2 { font-size: 50px !important; }
 
-    #name { font-size: 52px !important; }
+    #name { font-size: 48px !important; }
 
-    #work { font-size: 42px !important; }
+    #work { font-size: 38px !important; }
 
     #my-image {
-        max-height: 50vh;
-        max-width: 30vw;
+        max-height: 38vh;
+        max-width: 24vw;
     }
 
     .image-div {
@@ -173,27 +216,39 @@ hr.project-separator {
     .name-div {
         align-self: center !important;
     }
+
+    .social {
+        font-size: 35px;
+    }
+
+    .app-icon {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 /* Large devices */
 @media (min-width: 992px) {
-    .app-name-title { font-size: 70px !important; }
+    .app-name-title { font-size: 60px !important; }
 
-    .app-subtitle { font-size: 35px !important; }
+    .app-subtitle { font-size: 28px !important; }
 
     .app-text { font-size: 18px !important; }
 
     .section h2 { font-size: 60px !important; }
 
-    #name { font-size: 70px !important; }
+    #name { font-size: 60px !important; }
 
-    #work { font-size: 60px !important; }
+    #work { font-size: 50px !important; }
 
     #my-image {
-        max-height: 50vh;
+        max-height: 38vh;
         max-width: 30vw;
     }
 
+    .social {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -204,11 +259,9 @@ hr.project-separator {
 }
 
 @media screen and (orientation:portrait) {
-    .hero {
-        height: 80vh;
-    }
+
 }
+
 @media screen and (orientation:landscape) {
-    .hero {
-        height: 100vh;
-    }
+
+}
