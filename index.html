@@ -36,7 +36,14 @@
                 <h1 id="name">FRED MURAKAWA</h1>
                 <h2 id="work">iOS Engineer</h2>
                 <div class="social">
-                    <a href="https://www.linkedin.com/in/frederico-murakawa/" target="_blank" title="LinkedIn" class="social-media-icon">
+                    <a href="https://www.linkedin.com/in/frederico-murakawa/" target="_blank" title="LinkedIn" class="social-media-icon"
+                    onclick="ga('send', {
+                                  hitType: 'event',
+                                  eventCategory: 'LinkedIn Link',
+                                  eventAction: 'click',
+                                  eventLabel: 'Cliked on LinkedIn',
+                                  transport: 'beacon');"
+                    >
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     <a href="https://github.com/fredmurakawa" target="_blank" title="GitHub" class="social-media-icon">
