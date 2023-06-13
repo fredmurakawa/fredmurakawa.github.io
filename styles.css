@@ -87,9 +87,9 @@ hr.project-separator {
 
 .section {
   color: rgba(72, 72, 72, 1);
-  background-color: #f6f6f6;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  background-color: #e8e8e8;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 
 .project-info {
@@ -105,6 +105,32 @@ hr.project-separator {
 
 .mockup {
   text-align: center;
+}
+
+#evgo .app-name-title {
+  color: rgba(0, 37, 50, 1);
+  margin-bottom: 0;
+}
+
+#evgo .app-subtitle {
+  color: rgba(0, 37, 50, 1);
+}
+
+#evgo .main-mockup {
+  background-color: rgba(255, 188, 33, 1);
+}
+
+#scruff .app-name-title {
+  color: rgba(25, 25, 25, 1);
+  margin-bottom: 0;
+}
+
+#scruff .app-subtitle {
+  color: rgba(25, 25, 25, 1);
+}
+
+#scruff .main-mockup {
+  background-color: rgba(25, 25, 25, 1);
 }
 
 #zup .app-name-title {
@@ -150,7 +176,7 @@ hr.project-separator {
 }
 
 #primer .app-subtitle {
-  color: rgba(253, 208, 118, 0.65);
+  color: rgba(253, 208, 118, 1);
 }
 
 #primer .main-mockup {
@@ -197,11 +223,11 @@ hr.project-separator {
 /* Small devices */
 @media (min-width: 350px) {
   .app-name-title {
-    font-size: 46px !important;
+    font-size: 29px !important;
   }
 
   .app-subtitle {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
 
   .app-text {
@@ -246,15 +272,15 @@ hr.project-separator {
 /* Medium devices */
 @media (min-width: 768px) {
   .app-name-title {
-    font-size: 53px !important;
+    font-size: 39px !important;
   }
 
   .app-subtitle {
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
 
   .app-text {
-    font-size: 18px !important;
+    font-size: 17px !important;
   }
 
   .section h2 {
@@ -295,7 +321,7 @@ hr.project-separator {
 /* Large devices */
 @media (min-width: 992px) {
   .app-name-title {
-    font-size: 60px !important;
+    font-size: 49px !important;
   }
 
   .app-subtitle {
